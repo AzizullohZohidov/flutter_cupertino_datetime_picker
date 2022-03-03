@@ -50,6 +50,8 @@ part 'strings_sr_lat.dart';
 
 part 'strings_nl.dart';
 
+part 'strings_uz.dart';
+
 abstract class _StringsI18n {
   const _StringsI18n();
 
@@ -147,6 +149,9 @@ enum DateTimePickerLocale {
 
   /// Dutch (NL)
   nl,
+
+  /// Uzbek (UZ)
+  uz,
 }
 
 /// Default value of date locale
@@ -179,6 +184,7 @@ const Map<DateTimePickerLocale, _StringsI18n> datePickerI18n = {
   DateTimePickerLocale.sr_cyrl: const _StringsSrCyrillic(),
   DateTimePickerLocale.sr_latn: const _StringsSrLatin(),
   DateTimePickerLocale.nl: const _StringsNl(),
+  DateTimePickerLocale.uz: const _StringsUz(),
 };
 
 class DatePickerI18n {

@@ -1,7 +1,7 @@
-name: w_cupertino_date_picker
+name: flutter_cupertino_datetime_picker
 description: w_cupertino_date_picker which belongs to uic group now ))
 version: 3.0.0
-homepage: https://github.com/AbuAbdulloh/w_cupertino_date_picker.git
+homepage: https://github.com/AbuAbdulloh/flutter_cupertino_datetime_picker.git
 
 dependencies:
   flutter:
